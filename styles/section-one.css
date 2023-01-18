@@ -1,3 +1,7 @@
+.section-1 {
+	margin-top: -60px;
+}
+
 .section-1__box {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
