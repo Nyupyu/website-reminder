@@ -1,0 +1,36 @@
+.site-header {
+	position: fixed;
+	display: flex;
+	background-color: red;
+}
+.main-nav__logo {
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main-nav__list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: gray;
+	gap: 10px;
+	padding: 10px;
+}
+
+.main-nav__item {
+	background-color: yellow;
+}
+
+.main-nav__link {
+	display: block;
+	text-align: center;
+	padding: 5px 10px;
+	color: var(--nav--text-color);
+	font-family: var(--font-serif);
+	font-size: 1.2rem;
+}
+
+.main-nav__link:hover {
+	color: var(--nav-text-color-hovered);
+}

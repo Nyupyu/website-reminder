@@ -1,0 +1,3 @@
+function sectionThree() {}
+
+sectionThree();

@@ -1,0 +1,33 @@
+.section-1__box {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: 10px;
+}
+
+.section-1__button {
+	grid-column: 1 / 2;
+	align-self: center;
+	font-size: 1.2rem;
+	padding: 5px;
+}
+
+.section-1__pop-up {
+	padding: 20px;
+	background-color: lightgray;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	grid-column: 2 / 2;
+	text-align: center;
+}
+
+.section-1__pop-up--close {
+	position: fixed;
+	right: -100%;
+	opacity: 0;
+}
+.section-1__pop-up--open {
+	position: relative;
+	right: 0;
+	opacity: 1;
+	transition: 400ms;
+}
